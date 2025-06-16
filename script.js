@@ -1,7 +1,7 @@
 
 // Function to get nutritional information of the specified food item
 async function getNutritionInfo() {
-    const apiKey = 'peOKlehaBxDEZTi0zccGY0nIoY1f7XmH2ta0WXaz';
+    const apiKey = '(Place_Your_API-Key)';
     const food = document.getElementById('food-item').value;
     const quantity = parseFloat(document.getElementById('quantity').value);
     const unit = document.getElementById('unit').value;
@@ -119,7 +119,7 @@ function showContainer(containerId) {
     document.getElementById(containerId).style.display = 'block';
 }
 
-const Api_Url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyChbvAVHzDdijZkoD4wDKU7KTQPPDjdOCE";
+const Api_Url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=(Place_Your_API_Key)";
 
 // Function to send user message and get bot response
 async function sendMessage() {
